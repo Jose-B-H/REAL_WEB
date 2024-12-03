@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Register</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/StyloPrincipal.css">
+    <link rel="stylesheet" href="CSS/register_estilos.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-div1">
+          <a href="Principal.html"><img src="IMAGENES/logoFijasShop.jpg" class="logoPrincipal" alt=""></a>
+          <form class="form-busqueda" action="/buscar" method="GET">
+              <input type="text" name="query" placeholder="buscar..." required><button type="submit">Buscar</button>
+          </form>
+          <a href="Principal.html"><img src="IMAGENES/SHOP.PNG" class="logoPrincipal" alt=""></a>
+        </div>
+      </header>
+      <nav class="nav-enlace">
+        <div class="enlaces_nav1">
+          <a href="carrusel.html" class="text_nav1">Ofertas Interesantes</a>
+          <a href="#" class="text_nav1">Redes Sociales</a>
+          <a href="nosotros.html" class="text_nav1">Nosotros</a>
+          <a href="Carrito.html" class="text_nav1">Carrito</a>
+          <a href="Registrarte.html" class="text_nav1">Registrarse</a>
+        </div>
+      </nav>
+        <main>
+
+            <div class="contenedor__todo">
+                <div class="caja__trasera">
+                    <div class="caja__trasera-login">
+                        <h3>¿Ya tienes una cuenta?</h3>
+                        <p>Inicia sesión para entrar en la página</p>
+                        <button id="btn__iniciar-sesion">Iniciar Sesión</button>
+                    </div>
+                    <div class="caja__trasera-register">
+                        <h3>¿Aún no tienes una cuenta?</h3>
+                        <p>Regístrate para que puedas iniciar sesión</p>
+                        <button id="btn__registrarse">Regístrarse</button>
+                    </div>
+                </div>
+
+                <!--Formulario de Login y registro-->
+                <div class="contenedor__login-register">
+                    <!--Login-->
+                    <form action="" class="formulario__login">
+                        <h2>Iniciar Sesión</h2>
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="password" placeholder="Contraseña">
+                        <button>Entrar</button>
+                    </form>
+
+                    <!--Register-->
+                    <form action="" class="formulario__register">
+                        <h2>Regístrarse</h2>
+                        <input type="text" placeholder="Nombre completo">
+                        <input type="text" placeholder="Correo Electronico">
+                        <input type="text" placeholder="Usuario">
+                        <input type="password" placeholder="Contraseña">
+                        <input type="password" placeholder="Repetir Contraseña">
+                        
+                        <button>Regístrarse</button>
+                    </form>
+                </div>
+            </div>
+            <br><br><br><br><br><br>
+        </main>
+        <hr>
+        <script src="JAVA/register_script.js"></script>
+
+        <footer class="footer">
+            <a ALIGN="CENTER" href="Principal.html" class="regreso">INICIO DE PAGINA</a>
+            <div class="footer-links">
+              <div class="footer-section">
+                <h4>Atención al cliente</h4>
+                <ul>
+                  <li><a href="#">Atención al cliente</a></li>
+                  <li><a href="#">Acuerdo de servicios de transacción</a></li>
+                  <li><a href="#">Términos y condiciones</a></li>
+                  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScRPrf4ty60uqDGQ0LyD1lNh85boGBVrye72C6XzDs2zCSbcA/viewform?usp=sf_link">Encuesta de satisfacción</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                  <li><a href="#">Inicio</a></li>
+                  <li><a href="carrusel.html">Productos</a></li>
+                  <li><a href="nosotros.html">Noticias</a></li>
+                  <li><a href="Registro.html">Contáctanos</a></li>
+                </ul>
+              </div>
+              <div class="footer-section">
+                <h4>Sobre nosotros</h4>
+                <ul>
+                  <li><a href="nosotros.html">Quiénes somos</a></li>
+                  <li><a href="#">Términos y condiciones</a></li>
+                  <li><a href="#">Envío</a></li>
+                  <li><a href="#">Política de privacidad</a></li>
+                </ul>
+              </div>
+            </div>        
+            <div class="footer-section3">
+              <h1 class="redes-sociales">REDES SOCIALES</h1>
+              <ul class="social-icons">
+                  <li><a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afcl5ng_JRS7tL60RhVd6cU_9nIaZmXYzZzXeH_hbch8LhtKcsuQ3bw7uvz1i1n3dDmZ1nJrdJgzZZj2lMuaVQw8b8AZdZzVosEnw7CdaWENkA&smuh=61999&lh=Ac_AsHi9-gol1e0RA_U"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="https://www.youtube.com/@LinkinPark"><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
+                  <!-- Agregar otros iconos de redes sociales aquí -->
+              </ul>
+          </div>
+          </footer>
+</body>
+</html>

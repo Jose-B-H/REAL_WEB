@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/StyloPrincipal.css" />
+    <link rel="stylesheet" href="CSS/styloredes.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- La ventana emergente (popup) -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn" id="closePopupBtn">&times;</span>
+        <h2>Bienvenido a FijasShop</h2>
+        <img src="IMAGENES/OFERTASXDDD.avif" alt="Promo 2" />
+        <p>
+          ¡Gracias por visitar nuestra página! No olvides suscribirte a nuestra web!
+        </p>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header-div1">
+        <a href="Principal.html"
+          ><img
+            src="IMAGENES/logoFijasShop.jpg"
+            class="logoPrincipal"
+            alt="Logo"
+        /></a>
+        <form class="form-busqueda" action="/buscar" method="GET">
+          <input
+            type="text"
+            name="query"
+            placeholder="buscar..."
+            required
+          /><button type="submit">Buscar</button>
+        </form>
+        <a href="Principal.html"
+          ><img src="IMAGENES/SHOP.PNG" class="logoPrincipal" alt="Shop"
+        /></a>
+      </div>
+    </header>
+
+    <nav class="nav-enlace">
+      <div class="enlaces_nav1">
+        <a href="carrusel.html" class="text_nav1">Ofertas Interesantes</a>
+        <a href="RedesSociales.html" class="text_nav1">Redes Sociales</a>
+        <a href="nosotros.html" class="text_nav1">Nosotros</a>
+        <a href="Carrito.html" class="text_nav1">Carrito</a>
+        <a href="Registrarte.html" class="text_nav1">Registrarse</a>
+      </div>
+    </nav>
+
+    <!-- Video de Presentación -->
+    <video
+      width="1980"
+      height="720"
+      class="ajusteVideo"
+      controls
+      muted
+      autoplay
+      loop
+    >
+      <source
+        src="IMAGENES/Introducing Surface Laptop 5.mp4"
+        type="video/mp4"
+        class="videoconfig"
+      />
+    </video>
+
+    <!-- Sección de Slider -->
+    <div class="slider-container">
+      <div class="slider">
+        <img src="IMAGENES/img carrusel/battle.png" alt="Promo 1" />
+
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Claudia Fernández"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "El proceso de compra fue muy fácil y rápido. ¡Estoy muy feliz con
+              el producto recibido!"
+            </p>
+            <p>- Claudia Fernández</p>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Eduardo Pérez"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "Una excelente experiencia de compra, el producto llegó antes de
+              lo esperado y en perfectas condiciones."
+            </p>
+            <p>- Eduardo Pérez</p>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Sofía Ramírez"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "La atención al cliente fue muy buena. Tuvieron en cuenta mis
+              necesidades y me ofrecieron una excelente solución."
+            </p>
+            <p>- Sofía Ramírez</p>
+          </div>
+        </div>
+
+        <img src="IMAGENES/img carrusel/blood.png" alt="Promo 2" />
+      </div>
+    </div>
+
+    <section class="testimonios">
+      <h2>Lo que dicen nuestros clientes</h2>
+      <div class="testimonios-container">
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Carlos Martínez"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "Me encantó el producto, superó mis expectativas. ¡Lo recomiendo
+              mucho!"
+            </p>
+            <p>- Carlos Martínez</p>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Laura Rodríguez"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "La atención al cliente fue excelente, siempre dispuestos a
+              ayudar. Muy recomendable."
+            </p>
+            <p>- Laura Rodríguez</p>
+          </div>
+        </div>
+        <div class="testimonio">
+          <div class="perfil">
+            <img
+              src="IMAGENES/user.png"
+              alt="Miguel López"
+              class="foto-perfil"
+            />
+          </div>
+          <div class="comentario">
+            <p>
+              "Los productos llegaron en perfectas condiciones y a tiempo. Muy
+              satisfecho con mi compra."
+            </p>
+            <p>- Miguel López</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>¡Suscríbete a nuestro boletín!</h2>
+      <p>
+        Recibe las últimas ofertas y noticias directamente en tu correo
+        electrónico.
+      </p>
+      <form action="/suscribir" method="POST">
+        <input
+          type="email"
+          name="email"
+          placeholder="Introduce tu correo"
+          required
+        />
+        <button type="submit">Suscribirse</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <a ALIGN="CENTER" href="Principal.html" class="regreso"
+        >INICIO DE PAGINA</a
+      >
+      <div class="footer-links">
+        <div class="footer-section">
+          <h4>Atención al cliente</h4>
+          <ul>
+            <li><a href="#">Atención al cliente</a></li>
+            <li><a href="#">Acuerdo de servicios de transacción</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScRPrf4ty60uqDGQ0LyD1lNh85boGBVrye72C6XzDs2zCSbcA/viewform?usp=sf_link"
+                >Encuesta de satisfacción</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="carrusel.html">Productos</a></li>
+            <li><a href="nosotros.html">Noticias</a></li>
+            <li><a href="Registro.html">Contáctanos</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Sobre nosotros</h4>
+          <ul>
+            <li><a href="nosotros.html">Quiénes somos</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+            <li><a href="#">Envío</a></li>
+            <li><a href="#">Política de privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-section3">
+        <h1 class="redes-sociales">REDES SOCIALES</h1>
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afcl5ng_JRS7tL60RhVd6cU_9nIaZmXYzZzXeH_hbch8LhtKcsuQ3bw7uvz1i1n3dDmZ1nJrdJgzZZj2lMuaVQw8b8AZdZzVosEnw7CdaWENkA&smuh=61999&lh=Ac_AsHi9-gol1e0RA_U"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/@LinkinPark"
+              ><i class="fa-brands fa-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/"
+              ><i class="fa-brands fa-tiktok"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script src="JAVA/VENTANAREDES.JS"></script>
+  </body>
+</html>

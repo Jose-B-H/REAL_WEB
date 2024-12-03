@@ -1,0 +1,493 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Incluye padding y border en el ancho/alto */
+    
+}
+
+.grid{
+
+    display: grid;
+    grid-template-columns: 50px 300px;
+    grid-template-rows: 200px 75px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.marca{
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 10px;
+    font-size: 12px;
+}
+
+.marca h1{
+    padding-right: 4px;
+    font-family: Georgia;
+}
+
+#imagen_logo {
+    width: 160px;
+    height: 45px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-top: 2px;
+}
+
+
+.marca {
+    margin: auto;
+    background: linear-gradient(45deg,orange,rgb(255, 130, 29), rgb(255, 43, 43),orange, rgb(255, 108, 23));
+    clear: both;
+    display: block;
+    content: '';
+
+}
+
+.marca h1 {
+
+    font-size: 70px;
+    line-height: 230px;
+
+}
+
+.marca h1 i {
+
+    font-weight: bold;
+
+}
+
+.navegador{
+    float: left;
+    width: 100%;
+    background: linear-gradient(45deg,orange,rgb(255, 130, 29), rgb(255, 43, 43),orange, rgb(255, 108, 23));
+    color: white;
+    transition: .3s ease all;
+    backface-visibility: hidden;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+
+}
+
+.navegador .wrap {
+    position: relative;
+    left: -565px;
+    transition: 0.4s ease all;
+
+}
+
+
+nav{
+    font-size: 12px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2 ease all;
+}
+
+
+body nav ul li a:hover{
+    background: linear-gradient(45deg,orange,rgb(255, 130, 29), rgb(255, 43, 43),orange, rgb(255, 108, 23));
+    background-color:rgb(0, 0, 0);
+    transition: all 0.5s ease 0s;
+}
+
+body.nav_fixed .navegador{
+
+    position: fixed;
+    position: 0;
+    z-index:1000;
+    top:0;
+    width: 100%;
+
+}
+
+body.nav_fixed .navegador .wrap{
+
+    left: 0;
+
+}
+
+html{
+    background-color: rgb(250, 248, 242, 0.5);
+}
+
+.contenedor .contenedor_ventas .producto1{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border:5px solid  #ffa837;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+.parrafo1{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titulo{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.producto_titulo1{
+    margin-top: 20px;
+}
+
+.producto1_buton{
+    background:  rgb(212, 107, 9);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.07em;
+    margin-right: 1.25em;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.producto1_buton:hover {
+
+    background:rgba(4, 158, 11, 0.753);
+    color: black;
+}
+
+
+
+.margen1{
+    background: url(../IMAGENES/img\ carrusel/mouse.jpg) ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen2{
+    background: url(../IMAGENES/img\ carrusel/tecladoNumerico.jpg)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+    
+}
+
+.margen3{
+    background: url(../IMAGENES/img\ carrusel/pci7.webp);
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400x;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen4{
+    background: url(https://images-na.ssl-images-amazon.com/images/I/61yEI8OjDKL._AC_SY450_.jpg) ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    background-position:center center;
+
+}
+
+.margen5{
+    background: url(../IMAGENES/img\ carrusel/Tekken.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+}
+
+.margen6{
+    background: url(../IMAGENES/img\ carrusel/Kof.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.margen7{
+    background: url(../IMAGENES/img\ carrusel/elden.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.margen8{
+    background: url(../IMAGENES/img\ carrusel/wow.png)  ;
+    max-height: 100%;
+    background-size: cover;
+    max-width: 100%;
+    width: 382px;
+    height: 200px;
+    background-position:center center;
+    
+} 
+
+.contenedor_ventasuwu{
+    display: flex;
+    
+}
+
+.producto_titulo2, 
+.descrip{
+    margin: 20px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.uwu{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.ewe{
+    
+    background:  rgb(212, 107, 9);
+    border: none;
+    border-radius: 0.31em;
+    padding: 0.93em 1.07em;
+    margin-right: 1.25em;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 1.12em;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 170px;
+}
+
+.ewe:hover {
+
+    background:rgba(4, 158, 11, 0.753);
+    color: black;
+}
+
+.contenedor_ventas2{
+    border:5px solid  #ffa837;
+    margin-top: 30px;
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+
+.titulo h2{
+
+    margin-left: 650px;
+    margin-right: 650px;
+    border: 1px solid #ffa837;
+    font-size: 50px;
+    background-color: orange;
+}
+.ventas_texto{
+    margin-top: 20px;
+    font-size: 50px;
+
+}
+
+
+.text__busqueda input {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #F2F2F2;
+    font-size: 16px;
+    outline: none;
+    width:400px;
+    height: 20px;
+
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    max-width: 500px;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.dbz{
+    width: 320px;
+}
+
+/* Estilo para pantallas medianas (768px o menos) */
+@media (max-width: 768px) {
+    .contenedor_ventasuwu {
+        flex-direction: column; /* Cambia a un diseño vertical */
+        align-items: center; /* Centra los elementos */
+    }
+
+    .producto_titulo2, 
+    .descrip {
+        margin: 10px auto; /* Margen centralizado */
+        max-width: 95%; /* Se ajusta al ancho disponible */
+        text-align: center;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px; /* Tamaño de botón reducido */
+        width: auto; /* Asegura que no ocupe más espacio */
+    }
+
+    .marca h1 {
+        font-size: 36px; /* Ajusta el tamaño de la fuente */
+    }
+}
+
+/* Estilo para pantallas pequeñas (480px o menos) */
+@media (max-width: 480px) {
+    .margen1, .margen2, .margen3, .margen4, .margen5, .margen6, .margen7, .margen8 {
+        width: 100%; /* Asegura que ocupen todo el ancho */
+        height: auto; /* Mantiene la proporción */
+    }
+
+    .marca h1 {
+        font-size: 24px; /* Tamaño más pequeño */
+        line-height: 1.2; /* Espaciado reducido */
+    }
+
+    .producto1_buton, .ewe {
+        font-size: 0.8em; /* Botón compacto */
+        padding: 0.6em; /* Espaciado reducido */
+    }
+
+    .modal-content {
+        width: 90%; /* Modal ajustado a la pantalla */
+        padding: 15px; /* Espaciado reducido */
+        font-size: 14px; /* Fuente más pequeña */
+    }
+    .contenedor_ventasuwu {
+        flex-direction: row; /* Mantiene diseño horizontal */
+        justify-content: space-between; /* Espaciado adecuado */
+    }
+
+    .producto_titulo2, 
+    .descrip {
+        max-width: 400px; /* Tamaño limitado */
+        margin: 0 20px; /* Espaciado entre elementos */
+    }
+
+    button {
+        font-size: 16px; /* Tamaño normal */
+    }
+
+    .marca h1 {
+        font-size: 48px; /* Texto más grande para pantallas amplias */
+    }
+    .nav-enlace {
+        height: 100%;
+        width: 100%;
+      }
+      .navegador{
+        margin: 0;
+        padding: 0;
+      }
+      .titulo, h2{
+        margin-left: 0;
+        margin-right: 0;
+      }
+      .producto1{
+        margin: 0%;
+      }
+      .dbz{
+        margin: 0%;
+    }
+}

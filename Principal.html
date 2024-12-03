@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/StyloPrincipal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Oswald:wght@200..700&family=Pacifico&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>FijasShop.com</title>
+  </head>
+  <body class="Grid-conteiner">
+        <!-- VISION DE LA VENTANA -->
+        <div id="miModal" class="modal">
+            <div class="modal-contenido">
+                <span id="cerrarModal" class="cerrar">&times;</span>
+                <h2>¡Hola!</h2>
+                <img src="IMAGENES/logoFijasShop.jpg" alt="" class="IMGVENTANA">
+                <img src="IMAGENES/SHOP.PNG" alt="" class="IMGVENTANA">
+                <img src="IMAGENES/img carrusel/pci7.webp" alt="" class="IMGVENTANA">
+            </div>
+        </div>
+      <header class="header">
+        <div class="header-div1">
+          <a href="Principal.html"><img src="IMAGENES/logoFijasShop.jpg" class="logoPrincipal" alt=""></a>
+          <form class="form-busqueda" action="/buscar" method="GET">
+              <input type="text" name="query" placeholder="buscar..." required><button type="submit">Buscar</button>
+          </form>
+          <a href="Principal.html"><img src="IMAGENES/SHOP.PNG" class="logoPrincipal" alt=""></a>
+        </div>
+      </header>
+      <nav class="nav-enlace">
+        <div class="enlaces_nav1">
+          <a href="carrusel.html" class="text_nav1">Ofertas Interesantes</a>
+          <a href="RedesSociales.html" class="text_nav1">Redes Sociales</a>
+          <a href="nosotros.html" class="text_nav1">Nosotros</a>
+          <a href="Carrito.html" class="text_nav1">Carrito</a>
+          <a href="Registrarte.html" class="text_nav1">Registrarse</a>
+        </div>
+      </nav>
+      <aside class="MenuLateral">
+        <nav>
+          <ul class="Menu"> 
+            <label>CATEGORÍA</label>
+            <li><a href="#">CELULARES</a>
+            <ul class="MenuHorizontal">
+              <li><a href="#">Xiomi</a></li>
+              <li><a href="ENLACES/CELULARES/ANDROID.HTML">Android</a></li>
+              <li><a href="#">Iphone</a></li>
+              <li><a href="#">Nokia</a></li>
+            </ul></li>
+            <li><a href="#">PC & COMPONENTES</a>
+            <ul class="MenuHorizontal">
+              <li><a href="#">Procesador</a></li>
+              <li><a href="#">Motherboard</a></li>
+              <li><a href="#">Ram</a></li>
+              <li><a href="#">Tarjetas de video</a></li>
+              <li><a href="#">Case</a></li>
+              <li><a href="#">Cooler</a></li>
+              <li><a href="#">Fuente de Podér</a></li>
+              <li><a href="#">Almecenamiento</a></li>
+              <li><a href="#">Accesorios</a></li>
+            </ul></li>
+            <li><a href="#">ELECTRODOMESTICOS</a>
+            <ul class="MenuHorizontal">
+              <li><a href="#">Muebles</a></li>
+              <li><a href="#">Literal</a></li>
+              <li><a href="#">Jarrones</a></li>
+              <li><a href="#">Labadoras</a></li>
+              <li><a href="#">cosas pa el Jardin</a></li>
+            </ul></li>
+            <li><a href="#">VEHICULOS</a>
+            <ul class="MenuHorizontal">
+              <li><a href="#">toyota</a></li>
+              <li><a href="#">tesla</a></li>
+              <li><a href="#">Opel</a></li>
+              <li><a href="#">Subaru</a></li>
+            </ul></li>
+          </ul>
+        </nav>
+      </aside>
+      <article class="Contenido">
+
+        <section id="productos" class="container" > 
+          <table class="tabla"> <!--creacion de la tabla-->
+              <tr>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/1.webp" alt="" class="imgTabla"/>
+                        <h3>Accesorios para juegos</h3>
+                        <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                        <a href="Carrito.html" class="Ofertas" id="verMasBtn">Ver más</a>
+                    </div>
+                </th>
+                  <th class="columna">
+                      <div class="categoria">
+                          <img src="IMAGENES/IMG/AUTO/1.webp" alt="" class="imgTabla"/>
+                          <h3>Autos de alta Gama</h3>
+                          <p>Compra tu auto preferido, de diferentes marcas</p>
+                          <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                      </div>
+                  </th>
+                  <th class="columna">
+                      <div class="categoria">
+                          <img src="IMAGENES/IMG/CELL/1.webp" alt="" class="imgTabla"/>
+                          <h3>Celulares de diferentes Gamas</h3>
+                          <p>Compra tu celular preferido, de diferentes marcas</p>
+                          <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                      </div>
+                  </th>
+                  <th class="columna">
+                      <div class="categoria">
+                          <img src="IMAGENES/IMG/PC TODO TIPO/1.avif" alt="" class="imgTabla"/>
+                          <h3>PC de todo tipo</h3>
+                          <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                          <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                      </div>
+                  </th>
+                  <th class="columna">
+                      <div class="categoria">
+                          <img src="IMAGENES/IMG/ELECTRO/1.jpg" alt="" class="imgTabla"/>
+                          <h3>Electrodomésticos de todo tipo</h3>
+                          <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                          <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                      </div>
+                  </th>
+              </tr>
+              <tr>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/2.jpg" alt="" class="imgTabla"/>
+                        <h3>Accesorios para juegos</h3>
+                        <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                        <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                    </div>
+                </th>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/AUTO/2.jpg" alt="" class="imgTabla"/>
+                        <h3>Autos de alta Gama</h3>
+                        <p>Compra tu auto preferido, de diferentes marcas</p>
+                        <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                    </div>
+                </th>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/CELL/2.webp" alt="" class="imgTabla"/>
+                        <h3>Celulares de diferentes Gamas</h3>
+                        <p>Compra tu celular preferido, de diferentes marcas</p>
+                        <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                    </div>
+                </th>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/PC TODO TIPO/2.webp" alt="" class="imgTabla"/>
+                        <h3>PC de todo tipo</h3>
+                        <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                        <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                    </div>
+                </th>
+                <th class="columna">
+                    <div class="categoria">
+                        <img src="IMAGENES/IMG/ELECTRO/2.jpg" alt="" class="imgTabla"/>
+                        <h3>Electrodomésticos de todo tipo</h3>
+                        <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                        <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                    </div>
+                </th>
+            </tr>
+            <tr>
+              <th class="columna">
+                  <div class="categoria">
+                      <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/3.jpg" alt="" class="imgTabla"/>
+                      <h3>Accesorios para juegos</h3>
+                      <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                      <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                  </div>
+              </th>
+              <th class="columna">
+                  <div class="categoria">
+                      <img src="IMAGENES/IMG/AUTO/3.jpg" alt="" class="imgTabla"/>
+                      <h3>Autos de alta Gama</h3>
+                      <p>Compra tu auto preferido, de diferentes marcas</p>
+                      <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                  </div>
+              </th>
+              <th class="columna">
+                  <div class="categoria">
+                      <img src="IMAGENES/IMG/CELL/3.webp" alt="" class="imgTabla"/>
+                      <h3>Celulares de diferentes Gamas</h3>
+                      <p>Compra tu celular preferido, de diferentes marcas</p>
+                      <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                  </div>
+              </th>
+              <th class="columna">
+                  <div class="categoria">
+                      <img src="IMAGENES/IMG/PC TODO TIPO/3.webp" alt="" class="imgTabla"/>
+                      <h3>PC de todo tipo</h3>
+                      <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                      <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                  </div>
+              </th>
+              <th class="columna">
+                  <div class="categoria">
+                      <img src="IMAGENES/IMG/ELECTRO/3.jpg" alt="" class="imgTabla"/>
+                      <h3>Electrodomésticos de todo tipo</h3>
+                      <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                      <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                  </div>
+              </th>
+          </tr>
+          <tr>
+            <th class="columna">
+                <div class="categoria">
+                    <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/4.jpg" alt="" class="imgTabla"/>
+                    <h3>Accesorios para juegos</h3>
+                    <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                    <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                </div>
+            </th>
+            <th class="columna">
+                <div class="categoria">
+                    <img src="IMAGENES/IMG/AUTO/4.webp" alt="" class="imgTabla"/>
+                    <h3>Autos de alta Gama</h3>
+                    <p>Compra tu auto preferido, de diferentes marcas</p>
+                    <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                </div>
+            </th>
+            <th class="columna">
+                <div class="categoria">
+                    <img src="IMAGENES/IMG/CELL/4.jpg" alt="" class="imgTabla"/>
+                    <h3>Celulares de diferentes Gamas</h3>
+                    <p>Compra tu celular preferido, de diferentes marcas</p>
+                    <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                </div>
+            </th>
+            <th class="columna">
+                <div class="categoria">
+                    <img src="IMAGENES/IMG/PC TODO TIPO/4.webp" class="imgTabla"/>
+                    <h3>PC de todo tipo</h3>
+                    <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                    <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                </div>
+            </th>
+            <th class="columna">
+                <div class="categoria">
+                    <img src="IMAGENES/IMG/ELECTRO/4.jpg" alt="" class="imgTabla"/>
+                    <h3>Electrodomésticos de todo tipo</h3>
+                    <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                    <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+                </div>
+            </th>
+        </tr>
+        <tr>
+          <th class="columna">
+              <div class="categoria">
+                  <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/5.jpeg" alt="" class="imgTabla"/>
+                  <h3>Accesorios para juegos</h3>
+                  <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                  <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+              </div>
+          </th>
+          <th class="columna">
+              <div class="categoria">
+                  <img src="IMAGENES/IMG/AUTO/4.webp" alt="" class="imgTabla"/>
+                  <h3>Autos de alta Gama</h3>
+                  <p>Compra tu auto preferido, de diferentes marcas</p>
+                  <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+              </div>
+          </th>
+          <th class="columna">
+              <div class="categoria">
+                  <img src="IMAGENES/IMG/CELL/4.jpg" alt="" class="imgTabla"/>
+                  <h3>Celulares de diferentes Gamas</h3>
+                  <p>Compra tu celular preferido, de diferentes marcas</p>
+                  <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+              </div>
+          </th>
+          <th class="columna">
+              <div class="categoria">
+                  <img src="IMAGENES/IMG/PC TODO TIPO/4.webp" alt="" class="imgTabla"/>
+                  <h3>PC de todo tipo</h3>
+                  <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                  <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+              </div>
+          </th>
+          <th class="columna">
+              <div class="categoria">
+                  <img src="IMAGENES/IMG/ELECTRO/4.jpg" alt="" class="imgTabla"/>
+                  <h3>Electrodomésticos de todo tipo</h3>
+                  <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                  <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+              </div>
+          </th>
+      </tr>
+      <tr>
+        <th class="columna">
+            <div class="categoria">
+                <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/5.jpeg" alt="" class="imgTabla"/>
+                <h3>Accesorios para juegos</h3>
+                <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+                <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+            </div>
+        </th>
+        <th class="columna">
+            <div class="categoria">
+                <img src="IMAGENES/IMG/AUTO/5.webp" alt="" class="imgTabla"/>
+                <h3>Autos de alta Gama</h3>
+                <p>Compra tu auto preferido, de diferentes marcas</p>
+                <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+            </div>
+        </th>
+        <th class="columna">
+            <div class="categoria">
+                <img src="IMAGENES/IMG/CELL/5.jpg" alt="" class="imgTabla"/>
+                <h3>Celulares de diferentes Gamas</h3>
+                <p>Compra tu celular preferido, de diferentes marcas</p>
+                <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+            </div>
+        </th>
+        <th class="columna">
+            <div class="categoria">
+                <img src="IMAGENES/IMG/PC TODO TIPO/5.webp" alt="" class="imgTabla"/>
+                <h3>PC de todo tipo</h3>
+                <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+                <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+            </div>
+        </th>
+        <th class="columna">
+            <div class="categoria">
+                <img src="IMAGENES/IMG/ELECTRO/5.webp" alt="" class="imgTabla"/>
+                <h3>Electrodomésticos de todo tipo</h3>
+                <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+                <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+            </div>
+        </th>
+    </tr>
+    <tr>
+      <th class="columna">
+          <div class="categoria">
+              <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/6.webp" alt="" class="imgTabla"/>
+              <h3>Accesorios para juegos</h3>
+              <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+              <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+          </div>
+      </th>
+      <th class="columna">
+          <div class="categoria">
+              <img src="IMAGENES/IMG/AUTO/6.webp" alt="" class="imgTabla"/>
+              <h3>Autos de alta Gama</h3>
+              <p>Compra tu auto preferido, de diferentes marcas</p>
+              <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+          </div>
+      </th>
+      <th class="columna">
+          <div class="categoria">
+              <img src="IMAGENES/IMG/CELL/6.webp" alt="" class="imgTabla"/>
+              <h3>Celulares de diferentes Gamas</h3>
+              <p>Compra tu celular preferido, de diferentes marcas</p>
+              <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+          </div>
+      </th>
+      <th class="columna">
+          <div class="categoria">
+              <img src="IMAGENES/IMG/PC TODO TIPO/6.avif" alt="" class="imgTabla"/>
+              <h3>PC de todo tipo</h3>
+              <p>Compra tu PC preferida, de diferentes capacidades y rendimientos</p>
+              <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+          </div>
+      </th>
+      <th class="columna">
+          <div class="categoria">
+              <img src="IMAGENES/IMG/ELECTRO/6.webp" alt="" class="imgTabla"/>
+              <h3>Electrodomésticos de todo tipo</h3>
+              <p>Compra tu electrodoméstico, de diferentes marcas y capacidades</p>
+              <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+          </div>
+      </th>
+  </tr>
+  <tr>
+    <th class="columna">
+        <div class="categoria">
+            <img src="IMAGENES/IMG/ACCESORIOS PARA JUEGOS/7.jpg" class="imgTabla"/>
+            <h3>Accesorios para juegos</h3>
+            <p>Auriculares, Teclados, Ratones de computadora, Sillas</p>
+            <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+        </div>
+    </th>
+    <th class="columna">
+        <div class="categoria">
+            <img src="IMAGENES/IMG/AUTO/1.webp" alt="" class="imgTabla"/>
+            <h3>Autos de alta Gama</h3>
+            <p>Compra tu auto preferido, de diferentes marcas</p>
+            <a href="Carrito.html" class="Ofertas" href="#">Ver más</a>
+        </div>
+    </th>
+
+</tr>
+          </table>
+      </article>
+
+      <footer class="footer">
+        <a ALIGN="CENTER" href="Principal.html" class="regreso">INICIO DE PAGINA</a>
+        <div class="footer-links">
+          <div class="footer-section">
+            <h4>Atención al cliente</h4>
+            <ul>
+              <li><a href="#">Atención al cliente</a></li>
+              <li><a href="#">Acuerdo de servicios de transacción</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScRPrf4ty60uqDGQ0LyD1lNh85boGBVrye72C6XzDs2zCSbcA/viewform?usp=sf_link">Encuesta de satisfacción</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="carrusel.html">Productos</a></li>
+              <li><a href="nosotros.html">Noticias</a></li>
+              <li><a href="Registro.html">Contáctanos</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Sobre nosotros</h4>
+            <ul>
+              <li><a href="nosotros.html">Quiénes somos</a></li>
+              <li><a href="#">Términos y condiciones</a></li>
+              <li><a href="#">Envío</a></li>
+              <li><a href="#">Política de privacidad</a></li>
+            </ul>
+          </div>
+        </div>        
+        <div class="footer-section3">
+          <h1 class="redes-sociales">REDES SOCIALES</h1>
+          <ul class="social-icons">
+              <li><a href="https://www.facebook.com/?stype=lo&flo=1&deoia=1&jlou=Afcl5ng_JRS7tL60RhVd6cU_9nIaZmXYzZzXeH_hbch8LhtKcsuQ3bw7uvz1i1n3dDmZ1nJrdJgzZZj2lMuaVQw8b8AZdZzVosEnw7CdaWENkA&smuh=61999&lh=Ac_AsHi9-gol1e0RA_U"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.youtube.com/@LinkinPark"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://www.tiktok.com/"><i class="fa-brands fa-tiktok"></i></a></li>
+              <!-- Agregar otros iconos de redes sociales aquí -->
+          </ul>
+      </div>
+      </footer>
+      <script src="JAVA/JAVAEMERPRINCIPAL.JS"></script>
+      <script src="JAVA/ventanaEmergente .js"></script>
+      <script src="JAVA/Carrito.js"></script>
+  </body>
+</html>

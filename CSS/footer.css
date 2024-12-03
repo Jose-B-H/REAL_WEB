@@ -1,0 +1,109 @@
+/* Estructura del footer */
+.footer {
+    background-color: rgb(136, 0, 0); /* Fondo rojo oscuro */
+    color: white; /* Texto en blanco */
+    padding: 20px 10px; /* Espaciado interno */
+    display: flex;
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    align-items: center; /* Centra el contenido */
+  }
+  
+  /* Botón "Inicio de página" */
+  .regreso {
+    margin-bottom: 20px; /* Separación con las redes sociales */
+    padding: 10px 20px;
+    background-color: red;
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .regreso:hover {
+    background-color: #ffcc00;
+    color: red;
+  }
+  
+  /* Redes sociales */
+  .footer-section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .redes-sociales {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Espaciado debajo del título */
+  }
+  
+  .social-icons {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaciado entre iconos */
+    padding: 0;
+  }
+  
+  .social-icons li {
+    font-size: 2.5rem; /* Tamaño de los íconos */
+  }
+  
+  .social-icons a {
+    color: white; /* Color de los íconos */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00; /* Efecto hover */
+  }
+  .footer-links {
+    display: flex; /* Organiza en columnas */
+    justify-content: space-around; /* Espaciado uniforme entre columnas */
+    padding: 20px 0;
+    background-color: rgb(136, 0, 0); /* Fondo rojo oscuro */
+    color: white; /* Texto blanco */
+  }
+  
+  .footer-section {
+    text-align: left;
+    margin: 0 20px; /* Espaciado entre columnas */
+    font-size:20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px; /* Espaciado debajo del título */
+    text-transform: uppercase;
+    color: #ffcc00; /* Amarillo para destacar */
+    border-bottom: 2px solid #ffcc00; /* Línea decorativa debajo del título */
+    padding-bottom: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 8px; /* Espaciado entre elementos */
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ffcc00; /* Amarillo al pasar el mouse */
+  }
+  /* Diseño responsivo */
+  @media (max-width: 768px) {
+    .social-icons {
+      flex-direction: column; /* Íconos en columna en pantallas pequeñas */
+      gap: 10px;
+    }
+  }
+  
